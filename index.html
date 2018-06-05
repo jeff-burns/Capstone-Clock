@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Clock UI</title>
+  <link rel="stylesheet" href="./main.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/4.0.0/darkly/bootstrap.min.css">
+</head>
+
+<body>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.20.1/moment.min.js"></script>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary title">
+      <h1 class="navbar-brand">Lights Up Alarm</h1>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <div class="card mb-3" style="width: 100%;">
+      <h4 class="card-header">Set Alarm</h4>
+      <ul class="list-group list-group-flush">
+        <div id="clock" class="clock">loading ...</div>
+        <form class="form">
+          <div class="card-header"></div>
+          <select class="custom-select options" onchange="setAlarm()" id="alarm-time">
+            <option class="options" selected="">Pick A Time </option>
+          </select>
+        </form>
+      </ul>
+    </div>
+  </main>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.1.0/moment.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/FitText.js/1.1/jquery.fittext.min.js"></script>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+  <script src="app.js" charset="utf-8"></script>
+</body>
+
+</html>
