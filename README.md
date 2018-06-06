@@ -1,7 +1,7 @@
 ## PROJECT DESCRIPTION
 
 ### Lights Out Alarm
-* This project will be an app integrated with minimal hardware that will allow the user to wake up closer to the time they initially desired. By shutting off only when the light sensor on the hardware reads that the lights in the room have been turned on, it will make going back to sleep after hitting the snooze button much more difficult.
+* This is an app integrated with minimal hardware that will allow the user to wake up closer to the time they initially desired. By shutting off only when the light sensor on the hardware reads that the lights in the room have been turned on, it will make going back to sleep after hitting the snooze button much more difficult.
 
 * Stretch Goals:
     * Sounding the alarm again if the lights have turned off within one minute of being turned on.
