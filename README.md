@@ -1,5 +1,7 @@
 ## PROJECT DESCRIPTION
 
+## [DEMO](https://youtu.be/0YpeMuKXx24)
+
 ### Lights Out Alarm
 * This is an app integrated with minimal hardware that will allow the user to wake up closer to the time they initially desired. By shutting off only when the light sensor on the hardware reads that the lights in the room have been turned on, it will make going back to sleep after hitting the snooze button much more difficult.
 
